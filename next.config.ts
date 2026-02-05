@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/api/proxy/ds/:path*",
-        destination: "https://api-dev.landau.app/v1/ds/:path*",
+        destination: "https://aspirelearning.app/api/ds/:path*",
       },
     ];
   },
