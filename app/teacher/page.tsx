@@ -37,7 +37,7 @@ export default function TeacherPage() {
           gender: "MALE",
         },
         utis_teacher_info: {
-          utis_code: 2913943,
+          utis_code: 2913944,
           school_utis_codes: [360452736, 432452736],
           lang_name: "Azərbaycan",
           main_subject_name: "Kimya",
@@ -148,44 +148,6 @@ export default function TeacherPage() {
             </div>
           </div>
         </main>
-      </div>
-    </div>
-  );
-}
-
-function LessonItem({
-  active,
-  icon: Icon,
-  title,
-  meta,
-}: {
-  active?: boolean;
-  icon: any;
-  title: string;
-  meta?: string;
-}) {
-  return (
-    <div
-      className={cn(
-        "flex items-start gap-3 p-4 border-b border-gray-200 cursor-pointer transition-colors",
-        active ? "bg-[#f3f0ff]" : "bg-white hover:bg-gray-50",
-      )}
-    >
-      <div
-        className={cn("mt-0.5", active ? "text-[#4b0082]" : "text-gray-500")}
-      >
-        <Icon size={20} />
-      </div>
-      <div className="flex-1">
-        <p
-          className={cn(
-            "text-sm font-medium leading-tight mb-1",
-            active ? "text-[#4b0082]" : "text-gray-700",
-          )}
-        >
-          {title}
-        </p>
-        {meta && <p className="text-xs text-gray-400">{meta}</p>}
       </div>
     </div>
   );
