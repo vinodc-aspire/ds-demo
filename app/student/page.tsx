@@ -37,7 +37,7 @@ export default function StudentPage() {
           gender: "MALE",
         },
         utis_student_info: {
-          utis_code: 2913945,
+          utis_code: 3516811,
           school_utis_code: 360452736,
           teach_status: "Oxuyur",
           class_code: 1885845,

@@ -37,7 +37,7 @@ export default function TeacherPage() {
           gender: "MALE",
         },
         utis_teacher_info: {
-          utis_code: 2913944,
+          utis_code: 2913943,
           school_utis_codes: [360452736, 432452736],
           lang_name: "Azərbaycan",
           main_subject_name: "Kimya",
