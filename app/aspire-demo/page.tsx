@@ -34,7 +34,7 @@ const apps: App[] = [
     blobColor: "#4b0082",
     blobContent: (
       <Image
-        src="/Rəqəmsal köməkçi.png"
+        src="/raqamsal.png"
         alt="Rəqəmsal köməkçi"
         width={60}
         height={60}
@@ -168,7 +168,7 @@ export default function AspireDemoPage() {
         {/* Logo */}
         <div className="flex items-center px-5 py-5">
           <Image
-            src="/rəqəmsal məktəb.png"
+            src="/raqamsalmakatab.png"
             alt="rəqəmsal məktəb"
             width={140}
             height={40}
