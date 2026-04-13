@@ -50,8 +50,8 @@ export default function StudentPage() {
         },
       });
       console.log("Response:", response.data);
-      if (response.data?.body?.redirect_url) {
-        const redirectUrl = response.data.body.redirect_url;
+      if (response.data?.redirect_url) {
+        const redirectUrl = response.data.redirect_url;
         window.open(redirectUrl, "_blank");
       } else {
         alert("Data sent successfully!");
